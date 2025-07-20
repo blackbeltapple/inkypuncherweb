@@ -216,24 +216,22 @@
                 Join our community and get inspiration for your perfect custom dog tag design, plus exclusive offers and new color releases!
             </p>
             
-            <form name="newsletter" netlify>
-                <!-- Netlify form requirements -->
-                <input type="hidden" name="form-name" value="newsletter" />
-                <div style="display: none;">
-                    <label>Don't fill this out: <input name="bot-field" /></label>
-                </div>
-                
-                <div class="email-form">
-                    <input 
-                        type="email" 
-                        name="email" 
-                        class="email-input" 
-                        placeholder="Enter your email address" 
-                        required
-                    >
-                    <button type="submit" class="submit-button">Join</button>
-                </div>
-            </form>
+                <form name="newsletter" netlify>
+                    <p>
+                        <input 
+                            type="email" 
+                            class="email-input" 
+                            placeholder="Enter your email address" 
+                            required
+                            name="email"
+                        />
+                    </p>
+                    <p>
+                        <button type="submit" class="submit-btn">
+                            Join Our Newsletter
+                        </button>
+                    </p>
+                </form>
             
             <div class="success-message" id="successMessage">
                 <span class="material-icons" style="vertical-align: middle; margin-right: 8px;">check_circle</span>
